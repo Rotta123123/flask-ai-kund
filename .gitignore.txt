@@ -1,0 +1,16 @@
+# Ignorera Python-cachefiler
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorera virtuella miljöer (venv)
+venv/
+env/
+
+# Ignorera stora loggfiler och databaser
+*.log
+*.sqlite3
+
+# Ignorera konfigurationsfiler som kan innehålla känslig info
+.env
